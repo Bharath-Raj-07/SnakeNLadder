@@ -1,7 +1,9 @@
 public class Player {
-    int currentPosition;
-    Player(int pos){
-        this.currentPosition=pos;
+    Integer currentPosition;
+    Integer dieValue;
 
+    Player(int position){
+
+        this.currentPosition=position;
     }
 }
